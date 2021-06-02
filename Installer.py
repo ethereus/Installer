@@ -1058,4 +1058,4 @@ def killProgram():
 
 #we need to run this line in main program to start the application
 
-eel.start('index.html', mode='chrome', size=(650, 300))
+eel.start('index.html', mode='chrome-app', size=(650, 300))
