@@ -1,0 +1,72 @@
+<!-- 
+index.html
+Package Installer
+
+Created by Joshua Smith on 19/02/21
+Copyright © 2021 Joshua Smith. All rights reserved.
+ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Installer</title>
+        <script type='text/javascript' src='/eel.js'></script>
+        <script type='text/javascript'>
+        
+        async function display_output() {
+            
+            // Call into Python so we can access the data
+            let output_data = await eel.startup()();
+
+            var i = 0;
+            var len = output_data.length;
+            var text = "";
+
+            for (; i < len; ) {
+              text += output_data[i] + "<br>";
+              i++;
+            }
+
+            document.getElementById("output-text").innerHTML = text;
+
+            var x = document.getElementById("startButton");
+            x.style.display = "none";
+
+            var y = document.getElementById("openButton")
+            y.style.display = "block";
+              
+        }
+        
+        </script>
+
+        <script type='text/javascript'>
+
+        async function installerHome() {
+
+            eel.homePage();
+
+        }
+
+        </script>
+
+    </head>
+    
+    <body>
+      <h3>Installer</h3>
+
+      <div id="startButton">
+
+        <button onclick="display_output()">startup</button>
+
+      </div>
+
+      <p id="output-text"></p>
+
+      <div style="display: none;" id="openButton">
+
+        <button onclick="installerHome()">Open Installer</button>
+
+      </div>
+
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<!-- 
+home.html
+Package Installer
+
+Created by Joshua Smith on 20/02/21
+Copyright © 2021 Joshua Smith. All rights reserved.
+ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="main.css">
+        <script type='text/javascript' src='/eel.js'></script>
+        <script type='text/javascript' src='main.js'></script>
+
+    </head>
+    
+    <body>
+      <h3 style="font-weight: bold" align="center">Welcome to Installer</h3>
+      <br>
+      <div id="mainButtons">
+
+        <button class="button button1" onclick="downloadPackage()">Download Package</button>
+        <button class="button button1" onclick="removeButton()">Remove Package</button>
+        <button class="button button1" onclick="addrepoButton()">Add Repo</button>
+        <button class="button button1" onclick="removerepoButton()">Remove Repo</button>
+        <button class="button button1" onclick="updateButton()">Update Packages</button>
+        <button class="button button1" onclick="eel.killProgram()">Exit</button>
+
+      </div>
+
+      <div class="input_stuff field" align="center" id="mainSpace">
+
+        <p id="repoText"></p>
+        <p id="text"></p>
+        <input class="input_stuff" placeholder="..." style="display: none;" id="repoChoice">
+        <button class="button button1" style="display: none;" id="submit" onclick="submit()">Enter</button>
+        <input class="input_stuff" placeholder="..." style="display: none;" id="package">
+        <button class="button button1" style="display: none;" id="submit2" onclick="submitChoice()">Enter</button>
+        <input class="input_stuff" placeholder="..." style="display: none;" id="removeChoice">
+        <button class="button button1" style="display: none;" id="submit3" onclick="removePackage()">Enter</button>
+        <input class="input_stuff" placeholder="..." style="display: none;" id="repoNew">
+        <button class="button button1" style="display: none;" id="submit4" onclick="addRepo()">Enter</button>
+        <input class="input_stuff" placeholder="..." style="display: none;" id="repoChosen">
+        <button class="button button1" style="display: none;" id="submit5" onclick="submitRepo()">Enter</button>
+        <button class="button button1" style="display: none;" id="updateButton" onclick="updateGo()">Update</button>
+
+      </div>
+
+    </body>
+</html>
