@@ -1,6 +1,6 @@
 web version of Installer, opens as a web page in your browser instead of as an app
 
-Need the following python libraries:
+requires the following python libraries:
 
 - eel
 - tqdm
@@ -10,3 +10,18 @@ also need Chrome installed.. but you can just edit the text saying "Chrome" insi
 
 macos and Windows binaries are available under "releases",
 although no future updates will be released in that form.
+
+
+Planned features:
+
+- password restricted repos
+- accounts
+- some form of payment system 
+- a nice modern UI
+- package description pages 
+
+Under consideration:
+
+- support for system modifications 
+- support for code injection based tweaks 
+- android and iOS releases (will require root) 
