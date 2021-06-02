@@ -2,8 +2,8 @@
 // main.js
 // Package Installer
 //
-// Created by Joshua Smith on 19/02/21
-// Copyright © 2021 Joshua Smith. All rights reserved.
+// Created by Yuna on 19/02/21
+// Copyright © 2021 Yuna. All rights reserved.
 //
 
 //   NOTE TO SELF:
