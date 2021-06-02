@@ -108,7 +108,7 @@ if not os.path.isfile('Sources/Sources.txt'):
 
 #adds the default repo to the sources file unless it is already present
 
-default = 'http://f4d3z.space/Installer'
+default = 'https://raw.githubusercontent.com/ethereus/InstallerRepo/main/'
 
 file = open('Sources/Sources.txt', 'r')
 
