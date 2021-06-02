@@ -19,6 +19,7 @@ Planned features:
 - some form of payment system 
 - a nice modern UI
 - package description pages 
+- defining package install location in repo
 
 Under consideration:
 
