@@ -2,8 +2,8 @@
 ## Installer.py
 ## Package Installer
 ##
-## Created by Joshua Smith on 17/09/20
-## Copyright © 2021 Joshua Smith. All rights reserved.
+## Created by Yuna on 17/09/20
+## Copyright © 2021 Yuna. All rights reserved.
 ##
 
 #declaring globals
