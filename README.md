@@ -6,7 +6,7 @@ requires the following python libraries:
 - tqdm
 - urllib
 
-also need Chrome installed.. but you can just edit the text saying "Chrome" inside of the .py file to be another browser such as "Edge" if you really want to.
+also need Chrome installed.. but you can just edit the text saying "chrome-app" inside of the .py file to be another browser such as "Edge" if you really want to.
 
 macos and Windows binaries are available under "releases",
 although no future updates will be released in that form.
