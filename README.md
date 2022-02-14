@@ -26,3 +26,4 @@ Under consideration:
 - support for system modifications 
 - support for code injection based tweaks 
 - android and iOS releases (will require root) 
+- complete rewrite in java
