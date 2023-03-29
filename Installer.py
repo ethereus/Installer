@@ -3,7 +3,7 @@
 ## Package Installer
 ##
 ## Created by ethereus on 17/09/20
-## Copyright © 2021 Yuna. All rights reserved.
+## Copyright © 2021 ethereus. All rights reserved.
 ##
 
 #declaring globals
