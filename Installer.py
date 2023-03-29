@@ -2,7 +2,7 @@
 ## Installer.py
 ## Package Installer
 ##
-## Created by Yuna on 17/09/20
+## Created by ethereus on 17/09/20
 ## Copyright © 2021 Yuna. All rights reserved.
 ##
 
