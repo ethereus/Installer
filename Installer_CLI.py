@@ -2,8 +2,8 @@
 ## Installer.py
 ## Package Installer
 ##
-## Created by Yuna on 17/09/20
-## Copyright © 2020 Yuna. All rights reserved.
+## Created by ethereus on 17/09/20
+## Copyright © 2020 ethereus. All rights reserved.
 ##
 
 #declaring globals
